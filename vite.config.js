@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/zhuanhuan-personality-web/',
+  base: '/-zhanhuan-personality-test-/',
   publicDir: 'public',
   build: {
     outDir: 'dist',
