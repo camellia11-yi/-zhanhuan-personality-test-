@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>甄嬛传人格测试</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-shell index-page">
+    <!-- 背景光晕 -->
+    <div class="aurora"></div>
+
+    <!-- 粒子背景 -->
+    <div class="bg-particles" id="particles"></div>
+
+    <!-- 飘动花瓣 -->
+    <div class="petal-layer" id="petals"></div>
+
+    <!-- 主内容 -->
+    <div class="page-content">
+      <div class="hero">
+        <div class="hero-ornament left"></div>
+        <div class="hero-ornament right"></div>
+
+        <div class="hero-top fade-in">
+          <div class="badge">国风命理测试</div>
+          <div class="hero-sub">沉浸式 · 轻古风 · 高级宫廷美学</div>
+        </div>
+
+        <div class="hero-title-wrap fade-in">
+          <h1 class="hero-title">甄嬛传人格测试</h1>
+          <p class="hero-desc">
+            48 道单选题，测出你更接近哪一位《甄嬛传》角色人格。
+          </p>
+          <p class="hero-desc muted">
+            从权力取向、情感表达、人际关系、应对压力、道德底线五大维度进入你的后宫命盘。
+          </p>
+        </div>
+
+        <div class="entry-card glass-card gold-outline fade-in">
+          <h2 class="entry-title">开启你的宫廷人格档案</h2>
+          <div class="entry-meta">
+            <div class="entry-item">
+              <span class="entry-value">48</span>
+              <span class="entry-label">题目</span>
+            </div>
+            <div class="entry-item">
+              <span class="entry-value">13</span>
+              <span class="entry-label">人格</span>
+            </div>
+            <div class="entry-item">
+              <span class="entry-value">3-5</span>
+              <span class="entry-label">分钟</span>
+            </div>
+          </div>
+
+          <button class="btn-primary entry-btn glow" onclick="startTest()">
+            进入测试
+          </button>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-head">
+          <h2 class="section-title">人格图鉴</h2>
+          <p class="section-sub">Q 版角色将对应你的最终测试结果</p>
+        </div>
+
+        <div class="personality-swiper" id="personalitySwiper">
+          <!-- 动态生成 -->
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="feature-grid">
+          <div class="feature-card glass-card gold-outline">
+            <h3 class="feature-title">高级沉浸界面</h3>
+            <p class="feature-desc">深紫、金色、墨黑、绛红为主色，辅以细腻动效与宫廷氛围。</p>
+          </div>
+          <div class="feature-card glass-card gold-outline">
+            <h3 class="feature-title">本地即时计算</h3>
+            <p class="feature-desc">不需要登录、后端与数据库，测试结果本地完成判定。</p>
+          </div>
+          <div class="feature-card glass-card gold-outline">
+            <h3 class="feature-title">分享海报生成</h3>
+            <p class="feature-desc">测完即可一键生成可分享海报，适合传播与二次扩散。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-action">
+        <button class="btn-primary bottom-btn" onclick="startTest()">立即测测看</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
